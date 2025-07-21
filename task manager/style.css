@@ -91,8 +91,8 @@ header *{
   font-size: 25px;
     transition: color 0.3s ease, font-size 0.3s ease;
 }
+
 .modal {
-  
     position: fixed;
     z-index: 1;
     padding-top: 22vh;
@@ -105,7 +105,6 @@ header *{
 }
 
 .modal-content {
-
     background-color: black;
     border-radius: 12px;
     margin: auto;
@@ -116,15 +115,16 @@ header *{
     display: flex;
     flex-direction: column;
 }
+
 #modal-header{
-    font-family: 'Poppins', sans-serif;
-  
-    
+    font-family: 'Poppins', sans-serif;  
 }
+
 .task-name{
         display: flex;
     justify-content: space-between;
 }
+
 #Close {
     background-color: rgba(0, 0, 0, 0.516);
     color: rgb(255, 255, 255);
@@ -137,6 +137,7 @@ header *{
     justify-content: center;
     cursor: pointer;
 }
+
  input{
     gap: 25px;
  }
